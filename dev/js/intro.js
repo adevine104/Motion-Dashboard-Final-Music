@@ -8,10 +8,10 @@ const introTL = gsap.timeline();
 
 
 export function IntroAnimation() {
-    introTL.from("#spikey-shape-big", {duration: 1.5, scale: 0, transformOrigin: "center"}, "play")
+    introTL.from("#spikey-shape-big", {duration: 1, scale: 0, transformOrigin: "center"}, "play")
         .to("#phone",{duration: .01, y:125, x:-6},"play")
         .to("#Nav",{duration: .01, y:125},"play")
-        .from("#logo-circle-big", {duration: 3, scale: 10, transformOrigin: "center"}, "play")
+        .from("#logo-circle-big", {duration: 2.5, scale: 10, transformOrigin: "center"}, "play")
         .to("#big-logo", {duration: 1, scale: .2, y: -320, transformOrigin: "center"}, "play2")
 
         .to("#speed-circle", {duration: .01, rotate:30, transformOrigin: "center"}, "play2")

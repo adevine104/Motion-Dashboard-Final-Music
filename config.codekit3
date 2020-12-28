@@ -62,14 +62,6 @@
 		"oAP": "/deploy/sound-effects/Car start sound effect.mp3",
 		"oF": 0
 		},
-	"/deploy/sound-effects/start-up.mp3": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/sound-effects/start-up.mp3",
-		"oF": 0
-		},
 	"/design/dashboard sketch.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -375,7 +367,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 626020743.85075402,
-	"displayValue": "Motion-Dashboard-Final-master",
+	"displayValue": "Motion-Dashboard-Final-Music",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-pale",
 	"iconImageWasSetByUser": 0

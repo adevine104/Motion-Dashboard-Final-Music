@@ -13,13 +13,13 @@ gsap.set("#car-pointer", {transformOrigin: "50% 50%", xPercent: -50, yPercent: -
 
 export function Part3Animation() {
 
-    Part3TL.to("#phone",{duration:.75, opacity:0, x:-100, transformOrigin: "center"},"play9-5")
-            .to("#phone-call",{duration:.75, y:40, transformOrigin: "left"},"play9-5")
+    Part3TL.to("#phone",{duration:.65, opacity:0, x:-100, transformOrigin: "center"},"play9-5")
+            .to("#phone-call",{duration:.65, y:40, transformOrigin: "left"},"play9-5")
 
-            .to("#music", {motionPath: {path: "#dots-path", align: "#dots-path", autoRotate: false}, duration: .75, ease: "none"}, "play9-5")
-            .to("#heatcool", {motionPath: {path: "#dots-path-2", align: "#dots-path-2", autoRotate: false}, duration: .75, ease: "none"}, "play9-5")
+            .to("#music", {motionPath: {path: "#dots-path", align: "#dots-path", autoRotate: false}, duration: .65, ease: "none"}, "play9-5")
+            .to("#heatcool", {motionPath: {path: "#dots-path-2", align: "#dots-path-2", autoRotate: false}, duration: .65, ease: "none"}, "play9-5")
 
-            .from("#phone-call",{duration:.75, opacity:0, x:-100, scaleX:1, transformOrigin: "left"},"play9-6")
+            .from("#phone-call",{duration:.65, opacity:0, x:-100, scaleX:1, transformOrigin: "left"},"play9-6")
         
 
             .to("#phone-icon-answer, #phone-icon-end",{duration:.15, rotate:-10, transformOrigin: "center"},"play9-6")
@@ -35,14 +35,14 @@ export function Part3Animation() {
             .to("#phone-icon-answer, #phone-icon-end",{duration:.15, rotate:0, transformOrigin: "center"},"play9-92")
 
             .to("#touch",{duration:.1, x:-300, y:-100},"play9-11")
-            .to("#touch-print, #outside-ring",{duration:.5, x:-58, y:-12, opacity: 1},"play9-12")
-            .to("#touch-print",{duration:.5, scale:.65, transformOrigin: "center"},"play9-12")
-            .to("#outside-ring",{duration:.5, scale:.85, transformOrigin: "center"},"play9-12")
-            .to("#touch-print",{duration:.5, scale:1, opacity:0, transformOrigin: "center"},"play9-13")
-            .to("#outside-ring",{duration:.5, scale:1.5, opacity:0, transformOrigin: "center"},"play9-13")
+            .to("#touch-print, #outside-ring",{duration:.4, x:-58, y:-12, opacity: 1},"play9-12")
+            .to("#touch-print",{duration:.4, scale:.65, transformOrigin: "center"},"play9-12")
+            .to("#outside-ring",{duration:.4, scale:.85, transformOrigin: "center"},"play9-12")
+            .to("#touch-print",{duration:.4, scale:1, opacity:0, transformOrigin: "center"},"play9-13")
+            .to("#outside-ring",{duration:.4, scale:1.5, opacity:0, transformOrigin: "center"},"play9-13")
 
-            .to("#phone-call",{duration:.75, opacity:0, x:-100, scaleX:0, transformOrigin: "left"},"play9-14")
-            .to("#phone",{duration:.75, opacity:1, x:10, transformOrigin: "center"},"play9-15")
+            .to("#phone-call",{duration:.65, opacity:0, x:-100, scaleX:0, transformOrigin: "left"},"play9-14")
+            .to("#phone",{duration:.65, opacity:1, x:10, transformOrigin: "center"},"play9-15")
 
 
             .to("#music", {motionPath: {path: "#dots-path", align: "#dots-path", autoRotate: false, start:1, end: 0}, duration: .75, ease: "none"}, "play9-15")

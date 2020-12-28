@@ -34,9 +34,9 @@ export function speedCounter() {
 var oneSecSpeed = .25;
 
 var touchSpeed = .5;
-var touchSpeed2 = .75;
+var touchSpeed2 = .65;
 
-var twoSecSpeed = 1;
+var twoSecSpeed = .8;
 
 
 
