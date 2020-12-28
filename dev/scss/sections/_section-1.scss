@@ -1,0 +1,213 @@
+/* =============
+    Section 1
+============= */
+
+#section-1{
+
+    display: grid;
+    grid-template-columns: auto 70% auto;
+    grid-template-areas: ". motion .";
+
+    // background-color: #0C0C0C;
+    
+    >div{
+        grid-area: motion;
+        height: 100vh;
+        // width: 100vh;
+        // margin-left: -120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg{
+            width: 100%;
+        }
+    }
+
+    #dots-path{
+        visibility: hidden;
+    }
+
+    #dots-path-2{
+        visibility: hidden;
+    }
+
+    #dots-path-1-2{
+        visibility: hidden;
+    }
+
+    #dots-path-2-2{
+        visibility: hidden;
+    }
+
+        // #speed-pointer{
+        //     opacity: 0;
+        // }
+
+        #directions{
+            opacity: 0;
+        }
+
+        #directions-2{
+            opacity: 0;
+        }
+
+        #directions-3{
+            opacity: 0;
+        }
+
+        #directions-4{
+            opacity: 0;
+        }
+
+        #directions-5{
+            opacity: 0;
+        }
+
+
+
+
+        #touch-print{
+            opacity: 0;
+        }
+
+        #outside-ring{
+            opacity: 0;
+        }
+
+        #phone-icon-big{
+            opacity: 0;
+        }
+
+        #phone-icon-big{
+            opacity: 0;
+        }
+
+        #fan-icon-big{
+            opacity: 0;
+        }
+
+        #radio-icon-big{
+            opacity: 0;
+        }
+
+        #pause-1{
+            visibility: hidden;
+        }
+
+        #pause-2{
+            visibility: hidden;
+        }
+
+        #pause-3{
+            opacity: 0;
+        }
+
+        #pause-4{
+            opacity: 0;
+        }
+
+        #play-3{
+            visibility: hidden;
+        }
+
+        #play-4{
+            visibility: hidden;
+        }
+
+        #logo{
+            opacity: 0;
+        }
+
+        #clock-weather-date{
+            opacity: 0;
+        }
+
+        #nav-map{
+            opacity: 0;
+        }
+
+        #prndl{
+            opacity: 0;
+        }
+
+        #Toxic-2{
+            opacity: 0;
+        }
+
+
+        #speed-counter-2{
+            opacity: 0;
+        }
+
+
+        // #phone-call{
+        //     opacity: 0;
+        // }
+
+        // #music-stuff{
+        //     opacity: 0;
+        // }
+
+        #HC-stuff{
+            opacity: 0;
+        }
+
+        #nav-stuff{
+            opacity: 0;
+        }
+
+        #phone-stuff{
+            opacity: 0;
+        }
+
+        // #phone-box{
+        //     visibility: hidden;
+        // }
+
+        // #speed-stuff{
+        //     opacity: 0;
+        // }
+
+        #Toxic-2{
+            opacity: 0;
+        }
+
+        #C-thirtythree{
+            opacity: 0;
+        }
+
+        #C-thirtysix{
+            opacity: 0;
+        }
+
+        #C-thirtynine{
+            opacity: 0;
+        }
+
+        #C-fourtyone{
+            opacity: 0;
+        }
+
+
+        #S-ninenine{
+            opacity: 0;
+        }
+
+        #S-onehun{
+            opacity: 0;
+        }
+
+        #S-oneOone{
+            opacity: 0;
+        }
+
+        #S-oneOtwo{
+            opacity: 0;
+        }
+
+        
+}
+
+
+
